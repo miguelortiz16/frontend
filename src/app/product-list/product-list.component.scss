@@ -1,0 +1,30 @@
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.result-container {
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+mat-card {
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}

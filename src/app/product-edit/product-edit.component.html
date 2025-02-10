@@ -1,0 +1,21 @@
+<div class="container">
+  <h2>Editar Producto</h2>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Nombre</mat-label>
+    <input matInput [(ngModel)]="product.name">
+  </mat-form-field>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Descripción</mat-label>
+    <textarea matInput [(ngModel)]="product.description"></textarea>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Precio</mat-label>
+    <input matInput type="number" [(ngModel)]="product.price">
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" (click)="updateProduct()">Guardar Cambios</button>
+  <button mat-raised-button color="warn" routerLink="/">Cancelar</button>
+</div>
